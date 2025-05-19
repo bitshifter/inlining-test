@@ -1,0 +1,11 @@
+[package]
+name = "mathbin"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+inline = ["mathlib/inline"]
+
+[dependencies]
+mathlib = { path = "../mathlib" }
+rand = "0.9"
